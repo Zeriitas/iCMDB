@@ -1,0 +1,7 @@
+Device Name, Model Name, Serial Number, Storage Status, Notes, Warranty Date, Operating Software, UserID/Name, Local Office, Manufacturer, Phone Number, 
+P-INNOVA-02, dadadada, dadadadadada, USED, dadada, 01-01-2000, , GAMZE, dadadada, , , 
+P-INNOVA-04, dadadadada, dadadadadada, USED, , 01-01-2000, , FURKAN, , , , 
+PC-INNOVA-05, aaaaaaaaaa, xxxxxxxxxxx, USED, , 01-01-2000, , ANTHONY, , , , 
+INNOVA-PC12, dadadada, , USED, , 01-01-2000, , null, , , , 
+LAPTOP001, dadadadadad, , USED, aaaa, 01-01-2000, , FURKAN, dadada, aaaaa, , 
+PHONE-01, dadada, dadadadadada, USED, , 01-01-2000, , FURKAN, , , 0685945894854, 

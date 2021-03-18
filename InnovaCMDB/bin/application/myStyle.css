@@ -1,0 +1,203 @@
+.button {
+	-fx-background-color: transparent;
+	-fx-border-color:white;
+	-fx-border-radius: 15px;
+	-fx-text-fill: white;
+	
+
+}
+.titled-pane > .title {
+	-fx-background-color: #1F2326;
+}
+
+.titled-pane > .body {
+	-fx-background-color: #1F2326;
+}
+
+.titled-pane {
+	-fx-background-color: #1F2326;
+}
+
+.titled-pane .head {
+	-fx-text-fill: white;
+}
+
+.root {
+	-fx-background-color: #1F2326;
+}
+
+.titled-pane {
+	-fx-border-color: white;
+}
+
+ .text-area  {
+	-fx-text-fill: white;
+}
+
+.accordion {
+	-fx-background-color: #1F2326;
+}
+.anchor-pane {
+	-fx-background-color: #1F2326;
+}
+
+.text-area .content {
+	-fx-background-color: #2F3136;
+	-fx-border-radius: 2px;
+	-fx-backround-insets:2px;
+	-fx-text-fill: white;
+}
+.radio-button {
+	-fx-text-fill: white;
+}
+
+
+.text-area :hover {
+	-fx-border-color: #0099ff;
+}
+
+
+.text-field {
+	-fx-text-fill: white;
+	-fx-background-insets: 2px; -fx-border-color: white; -fx-background-color: #2F3136; -fx-background-position: 15px; -fx-border-radius: 15px;
+	-fx-background-color: #2F3136;
+}
+
+.text-field:selected {
+	-fx-border-color: #0099ff;
+}
+.text-field:focused {
+	-fx-border-color: #0099ff;
+}
+.button:hover {
+	-fx-border-color: #0099ff;
+	-fx-background-color: #0099ff;
+	-fx-text-fill: white;
+	-fx-background-radius: 15px;
+}
+
+.text-field:hover {
+	-fx-border-color: #0099ff;
+}
+
+
+.label {
+	-fx-text-fill: white;
+	-fx-background-radius: 15px;
+	-fx-font-size:15;
+	
+}
+/* alle labels worden in id labels gezet, omdat de contextmenu rightclick zwart moet blijven */
+
+
+.list-view .list-cell:even {
+-fx-background-color: #1F2326;
+-fx-text-fill: white;
+}
+.list-view .list-cell:odd {
+-fx-background-color: #2E3338;
+-fx-text-fill: white;
+}
+
+
+.list-cell:odd {
+    -fx-background-color: derive(-fx-control-inner-background,-5%);
+}
+
+.list-view:focused .list-cell:focused {
+    -fx-background-color: -fx-focus-color, -fx-cell-focus-inner-border, -fx-control-inner-background;
+    -fx-background-insets: 0, 1, 2;
+}
+
+.list-view:focused .list-cell:focused:odd {
+    -fx-background-color: -fx-focus-color, -fx-cell-focus-inner-border, derive(-fx-control-inner-background,-5%);
+    -fx-background-insets: 0, 1, 2;
+}
+
+/* When the list-cell is selected and focused */
+.list-view:focused .list-cell:filled:focused:selected {
+    -fx-background-color: -fx-focus-color, -fx-cell-focus-inner-border, -fx-selection-bar;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background: -fx-accent;
+    -fx-text-fill: -fx-selection-bar-text;
+}
+
+.list-view:focused .list-cell:filled:selected, .list-view:focused .list-cell:filled:selected:hover {
+    -fx-background: -fx-accent;
+    -fx-background-color: -fx-selection-bar;
+    -fx-text-fill: -fx-selection-bar-text;
+}
+
+.list-view:focused .list-cell:filled:focused:selected:hover {
+    -fx-background: -fx-accent;
+    -fx-background-color: -fx-focus-color, -fx-cell-focus-inner-border, -fx-selection-bar;
+    -fx-background-insets: 0, 1, 2;
+    -fx-text-fill: -fx-selection-bar-text;
+}
+
+/* When the ListView is _not_ focused, we show alternate selection colors */
+.list-cell:filled:selected:focused, .list-cell:filled:selected, .list-view:horizontal .list-cell:filled:selected {
+    -fx-background-color: lightgray;
+    -fx-text-fill: -fx-selection-bar-text;
+}
+
+.list-cell:filled:selected:focused:disabled, .list-cell:filled:selected:disabled {
+    -fx-opacity: -fx-disabled-opacity;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: -fx-cell-hover-color;
+    -fx-text-fill: -fx-text-inner-color;
+}
+
+.list-view:focused .list-cell:filled:focused:hover {
+    -fx-background-color: -fx-focus-color, -fx-cell-focus-inner-border, -fx-cell-hover-color;
+    -fx-background-insets: 0, 1, 2;
+    -fx-text-fill: -fx-text-inner-color;
+}
+
+.list-view:horizontal .list-cell:filled:selected, .list-view:horizontal .list-cell:filled:selected:hover {
+    -fx-background-color: linear-gradient(to right, derive(-fx-accent,-7%), derive(-fx-accent,-25%));
+}
+
+/*styling for context menu */
+.context-menu  {
+
+	-fx-background-color: #373D42;
+}
+.menu-item .label {
+	-fx-text-fill: white;
+}
+/*styling for context menu */
+
+/* styling for dialog pane */
+.dialog-pane {
+	-fx-background-color: #1f2326;
+}
+.dialog-pane.button-bar.container{
+	-fx-background-color: #1f2326;
+}
+
+.dialog-pane:header *.header-panel{
+	-fx-background-color: #1f2326;
+}
+/* styling for dialog pane */
+
+#redbuttons:hover {
+	-fx-background-color: #B80000;
+	-fx-border-color: #B80000;
+}
+
+#yellowbuttons:hover {
+	-fx-background-color: #E3D000;
+	-fx-border-color: #E3D000;
+	-fx-font-weight: bold;
+}
+.button:hover {
+	-fx-font-weight: bold;
+}
+
+.radio-button {
+	-fx-font-size:13;
+}
+
